@@ -36,3 +36,5 @@ Example:
 - - - - - - - - -
         └── 24.jpg
 ```
+## Example
+![6 PM](https://github.com/emorchy/widget/blob/main/example.png?raw=true)
