@@ -2,6 +2,9 @@
 
 This script combines the [wttr.in](https://github.com/chubin/wttr.in#supported-output-formats-and-views) widget (weather) and the [dwall](https://github.com/adi1090x/dynamic-wallpaper) wallpaper collection (time).
 
+## Example
+![6 PM](https://github.com/emorchy/widget/blob/main/example.png?raw=true)
+
 ## Dependencies
 ### [pywal](https://github.com/dylanaraps/pywal)
 
@@ -14,7 +17,7 @@ Install to your `.config` folder in your home directory (ex. `/home/user/.config
 
 Cron: *(Add to crontab)*
 
-`0 * * * * $HOME/.config/widget/widget.sh`
+`0 * * * * /bin/bash $HOME/.config/widget/widget.sh`
 
 i3: *(Add to i3 config)*
 
@@ -36,5 +39,3 @@ Example:
 - - - - - - - - -
         └── 24.jpg
 ```
-## Example
-![6 PM](https://github.com/emorchy/widget/blob/main/example.png?raw=true)
