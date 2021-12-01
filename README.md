@@ -17,7 +17,7 @@ Install to your `.config` folder in your home directory (ex. `/home/user/.config
 
 Cron: *(Add to crontab)*
 
-`0 * * * * env PATH=$HOME/.local/bin:/usr/bin /bin/bash $HOME/.config/widget/widget.sh`
+`0 * * * * env PATH=$HOME/.local/bin:/usr/bin DISPLAY=:0 DESKTOP_SESSION=i3 /bin/bash $HOME/.config/widget/widget.sh`
 
 i3: *(Add to i3 config)*
 
